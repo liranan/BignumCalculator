@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/inT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/bin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789ABCDEFabcdef"
+        android:inputType="number" >
+    </EditText>
+
+    <Spinner
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/resT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/sys"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/bclear"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="清空" />
+
+        <Button
+            android:id="@+id/cal"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="转换" />
+    </LinearLayout>
+
+</LinearLayout>
